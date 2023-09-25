@@ -2,8 +2,7 @@ import csv
 from datetime import datetime
 from google_play_scraper import Sort, reviews
 
-
-# Retrieve data from Play Store using Scraper
+# Retrieve data from Play Store using Scraper (https://github.com/JoMingyu/google-play-scraper)
 def review_scraper(app_id, app_name, lang, country, sort, count, filter_score_with):
     result, continuation_token = reviews(
         app_id,
